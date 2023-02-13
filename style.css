@@ -77,11 +77,11 @@ nav li{
 }
 
 .mission-section .profile-image{
-    width: clamp(200px, 30vw, 700px);
+    width: clamp(200px, 30vw, 600px);
 }
 
 .mission-section img{
-    width: 100%;
+    max-width: 100%;
 
 }
 
