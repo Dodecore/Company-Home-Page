@@ -75,7 +75,7 @@ nav li {
 }
 
 .mission-section .profile-image {
-  width: clamp(200px, 30vw, 600px);
+  width: clamp(300px, 30vw, 600px);
 }
 
 .mission-section img {
@@ -162,4 +162,68 @@ nav li {
 
 .services-section .service-icon {
   margin-right: 10px;
+}
+
+/*Servizi mobile*/
+@media (max-width: 480px) {
+  .services-section {
+    flex-wrap: wrap;
+  }
+
+  .services-section .services-scrollable-container {
+    overflow: scroll;
+    width: 100%;
+    padding: 30px;
+  }
+
+  .services-section .services-menu {
+    border: 1px solid black;
+    padding: 50px;
+    margin: 0px 5px;
+    box-shadow: 5px 5px 0px 0px #000000;
+  }
+}
+
+/*Testimonial*/
+
+.testimonial{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 300px;
+}
+
+.heading{
+  text-align: center;
+  font-size: clamp(1rem, 10vw, 3rem);
+  margin-bottom: clamp(1rem, 10vh, 3rem);
+}
+
+.testimonial-container{
+  width: 65%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 30px;
+  
+}
+
+.testimonial-container .review-wrapper{
+  border: 1px solid black;
+  box-shadow: 5px 5px 0px 0px #000000;
+  width: 300px;
+  height: 300px;
+  padding: 30px;
+  overflow-y: scroll;
+}
+
+.testimonial-container .user-profile{
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin-bottom: 15px;
+  text-align: right;
+}
+
+.testimonial-container .star-rating span{
+  width: 13%;
 }
