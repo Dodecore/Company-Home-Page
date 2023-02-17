@@ -72,6 +72,7 @@ nav li {
   width: 100%;
   align-items: center;
   justify-content: center;
+  margin-bottom: 20vh;
 }
 
 .mission-section .profile-image {
@@ -107,6 +108,7 @@ nav li {
 @media (max-width: 1060px) {
   .mission-section {
     flex-flow: column wrap;
+    margin-bottom: 0px;
   }
 
   .mission-section .bio {
@@ -202,7 +204,7 @@ nav li {
   width: 65%;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: center;
   gap: 30px;
   
 }
@@ -214,6 +216,13 @@ nav li {
   height: 300px;
   padding: 30px;
   overflow-y: scroll;
+  flex: 1 0 20%;
+}
+
+@media (max-width: 1600px) {
+  .testimonial-container .review-wrapper{
+    flex: 1 0 40%;
+  }
 }
 
 .testimonial-container .user-profile{
@@ -227,3 +236,4 @@ nav li {
 .testimonial-container .star-rating span{
   width: 13%;
 }
+
