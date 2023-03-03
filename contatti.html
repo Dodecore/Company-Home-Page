@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Contatti</title>
     <link rel="stylesheet" href="contatti-style.css" />
+    <link rel="stylesheet" href="header.css">
     <link
       href="https://fonts.googleapis.com/icon?family=Material+Icons+Round"
       rel="stylesheet"
@@ -20,8 +21,8 @@
         <a href="index.html" class="desktop logo">Osenda Carlo</a>
         <nav class="desktop">
           <ul>
-            <li><a href="/contatti.html">Contatti</a></li>
-            <li><a href="#">Servizi</a></li>
+            <li><a class="contact-link" href="/contatti.html">Contatti</a></li>
+            <li><a class="services-link" href="#">Servizi</a></li>
           </ul>
         </nav>
       </div>
@@ -31,7 +32,8 @@
       <div class="grid-container">
         <div class="contact-box">
           <div class="contact-wrapper location">
-            <div class="contact-icon">
+            <div class="contact-icon" id="icon-container">
+              <!--Da inserire link per google maps-->
               <i class="material-icons-round">location_on</i>
             </div>
             <div class="contact-text">
@@ -40,7 +42,7 @@
             </div>
           </div>
           <div class="contact-wrapper phone">
-            <div class="contact-icon">
+            <div class="contact-icon" id="icon-container">
               <i class="material-icons-round">phone</i>
             </div>
             <div class="contact-text">
@@ -49,7 +51,7 @@
             </div>
           </div>
           <div class="contact-wrapper email">
-            <div class="contact-icon">
+            <div class="contact-icon" id="icon-container">
               <i class="material-icons-round">email</i>
             </div>
             <div class="contact-text">
