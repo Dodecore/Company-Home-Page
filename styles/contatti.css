@@ -55,6 +55,7 @@ main {
   width: 100%;
   height: 50%;
   justify-content: center;
+  row-gap: 30px;
 }
 
 .grid-container .contact-box{
